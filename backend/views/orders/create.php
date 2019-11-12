@@ -22,7 +22,7 @@ print $form->field($model, 'address')->textInput();
 print $form->field($model, 'datetime_from')->textInput();
 print $form->field($model, 'datetime_to')->textInput();
 
-print Html::submitButton('Укусить', ['class' => 'btn btn-sm btn-primary']);
+print Html::submitButton('Создать заказ', ['class' => 'btn btn-sm btn-primary']);
 
 $form->end();
 Box::end();
